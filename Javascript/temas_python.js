@@ -13,8 +13,8 @@ document.getElementById("apuntes").innerHTML = `<h2 class="titulo_apuntes">Apunt
 
     <li id="0" class="click" onclick="items(this)"><a class = "links" href="#">Diccionarios</a>
         <ul id="100" class = "subtemas">
-            <li><a href="/Mi_blog.github.io/Contenido/Python/Diccionarios/Diccionarios.html">Definición</a></li>
-            <li><a href="/Mi_blog.github.io/Contenido/Python/Diccionarios/Añadir-elemento-en-un-diccionario.html">Añadir elementos en un diccionario</a></li>
+            <li><a href="/Mi_blog/Contenido/Python/Diccionarios/Diccionarios.html">Definición</a></li>
+            <li><a href="/Mi_blog/Contenido/Python/Diccionarios/Añadir-elemento-en-un-diccionario.html">Añadir elementos en un diccionario</a></li>
             <li><a href="">Metodo get para diccionarios</a></li>
             <li><a href="">Metodo items</a></li>
             <li><a href="">Metodo keys</a></li>

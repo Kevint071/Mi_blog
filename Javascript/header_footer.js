@@ -1,9 +1,9 @@
 document.getElementById("header").innerHTML = `
 <nav>
-    <a href="/Mi_blog.github.io/index.html"><img class = "imagen_logo" src="/Mi_blog.github.io/Imagenes/Logo_pagina.PNG"></a>
+    <a href="/Mi_blog/index.html"><img class = "imagen_logo" src="/Mi_blog/Imagenes/Logo_pagina.PNG"></a>
     <ul class = "menu">
         <div class="principal">
-            <li class = "boton_inicio"><a href = "/Mi_blog.github.io/index.html">Inicio</a></li>
+            <li class = "boton_inicio"><a href = "/Mi_blog/index.html">Inicio</a></li>
         </div>
         
         <div class="desplegable">
@@ -12,7 +12,7 @@ document.getElementById("header").innerHTML = `
             <div class = "triangulo"></div>
 
             <ul class="show_content">
-                <li><a href="/Mi_blog.github.io/Contenido/Python/Python.html">Python</a></li>
+                <li><a href="/Mi_blog/Contenido/Python/Python.html">Python</a></li>
                 <li><a href="">Javascript</a></li>
                 <li><a href="">Html</a></li>
                 <li><a href="">CSS</a></li>
@@ -22,7 +22,7 @@ document.getElementById("header").innerHTML = `
         </div>
 
         <div class = "portafolio">
-            <li class = "boton_programas"><a href = "/Mi_blog.github.io/Portafolio/Portafolio.html">Portafolio</a></li>
+            <li class = "boton_programas"><a href = "/Mi_blog/Portafolio/Portafolio.html">Portafolio</a></li>
         </div>
     </ul>
 </nav>`;
