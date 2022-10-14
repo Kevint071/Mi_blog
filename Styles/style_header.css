@@ -1,0 +1,139 @@
+body{
+    margin: auto;
+    background: linear-gradient(#00ffd510, #0057a821); 
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    margin: auto;
+    height: 80px;
+    width: 100%;
+    background-color: #000;
+    z-index: 2;
+}
+
+.imagen_logo{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    left: 3%;
+    border-radius: 33px;
+    margin-top: -10px;
+}
+
+nav{
+    display: block;
+    position: relative;
+    top: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1300px;
+}
+
+
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: 60%;
+}
+
+.triangulo{
+    display: block;
+    position: relative;
+    margin: 0px;
+    top: 8px;
+    transform: rotate(225deg);
+    width: 10px;
+    height: 10px;
+    border-left: 2px solid #fff;
+    border-top: 2px solid #fff;
+}
+
+.principal{
+    display: flex;
+    margin: auto;
+    margin-top: 0px;
+}
+
+.desplegable{
+    display: flex;
+    margin: auto;
+}
+
+.portafolio{
+    margin: auto;
+    margin-top: 0;
+    width: 120px ;
+}
+
+.show_content{
+    display: none;
+    list-style: none;
+    position: absolute;
+    top: 60px;
+    color: #000;
+    padding: 4px 20px 4px 20px;
+    margin-left: 0px;
+}
+
+.desplegable:hover .show_content{
+    display: block;
+    background-color: #000;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.desplegable:hover .boton_content{
+    position: relative;
+    transform: scale(1.09);
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+.show_content:hover > li:hover a{
+    transform: scale(1.09);
+}
+
+.menu li > a{
+    background-color: transparent;
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    text-decoration: none;
+    padding: 6px 20px;
+    border-radius: 6px;
+}
+
+.menu .boton_inicio a:hover{
+    transform: scale(1.09);
+    background-color: transparent;
+    color: #fff;
+}
+
+.menu .boton_programas a:hover{
+    transform: scale(1.09);
+    background-color: transparent;
+    color: #fff;
+}
+
+.menu .boton_inicio a:hover{
+    transform: scale(1.09);
+    background-color: transparent;
+    color: #fff;
+}
+
+.menu > li{
+    float: left;
+    margin-left: 30px;
+}
+
+@media all and (max-width: 500px){
+    .menu{
+        display: none;
+    }
+}

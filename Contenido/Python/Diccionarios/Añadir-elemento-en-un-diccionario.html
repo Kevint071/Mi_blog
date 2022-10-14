@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8">
+        <link href = "../../../Styles/style_content.css" rel = "stylesheet" type = "text/css">
+        <link href = "../../../Styles/style_header.css" rel = "stylesheet" type = "text/css">
+        <link rel="stylesheet" href="../../../Styles/style_footer.css" type="text/css">
+        <link rel="stylesheet" href="../../../Styles/style_paragraphs.css" type="text/css">
+        <link rel="icon" type="image/png" href="../../../Imagenes/Logo_python.PNG"/>
+        <title>Añadir elemento dict - Mi Blog</title>
+    </head>
+
+    <body>
+        <header id="header"></header>
+
+        <div class="responsive">
+            <section id="apuntes" class="apuntes"></section>
+    
+            <h1>Añadir, cambiar y eliminar elementos en un diccionario</h1>
+
+            <h2>Añadir elementos al diccionario</h2>
+    
+            <p class="p_content">Cuando queremos agregar un dato a un diccionario, hay que tener en cuenta de que el dato que tenemos que agregar debe ser <strong>clave:valor</strong>. Un ejemplo de un diccionario es el siguiente: </p>
+    
+            <code>
+                <ol class="codigo">
+
+                    <li>
+                        <span>
+                            <varmet>datos_personales</varmet>
+                            <op>=</op>
+                            <par> {</par>
+                        </span>
+                    </li>
+
+                    <li>
+                        <span>
+                            <str>&nbsp;&nbsp;&nbsp;&nbsp;"nombre"</str>:<str> "Juan"</str>,
+                        </span>
+                    </li>
+
+                    <li>
+                        <span>
+                            <str>&nbsp;&nbsp;&nbsp;&nbsp;"edad"</str>:<num> 23</num>
+                        </span>
+                    </li>
+
+                    <li>
+                        <span>
+                            <par>}</par>
+                        </span>
+                    </li>
+                </ol>
+            </code>
+    
+            <p class="p_content">Como sabemos que los diccionarios almacenan datos de forma "clave:valor", tenemos que agregar este mismo tipo de dato. Una de las formas mas usadas es la siguiente:</p>
+
+            <code>
+                <ol class="codigo">
+
+                    <li><span>
+                            <varmet>datos_personales</varmet><par>[</par><str>"genero"</str><par>]</par>
+                            <op> = </op>
+                            <str>"M"</str>
+                        </span>
+                    </li>
+                </ol>
+            </code>
+
+            <p class="p_content"> Lo que hicimos en esta linea de código, fue agregar al diccionario llamado <strong>"datos_personales"</strong> una clave o llave de tipo string llamada <strong>"Genero"</strong>, y un valor de tipo string llamado<strong>"M"</strong>. Ahora si observamos el diccionario se verá que está con el dato que acabamos de agregar: </p>
+
+            <code>
+                <ol class="codigo">
+
+                    <li>
+                        <span>
+                            <varmet>datos_personales</varmet>
+                            <op>=</op>
+                            <par>{</par>
+                            <str>"nombre"</str>: <str>"Juan"</str>,
+                            <str>"edad"</str>: <num>23</num>,
+                            <str>"genero"</str>: <str>"M"</str>
+                            <par>}</par>
+                        </span>
+                    </li>
+                </ol>
+            </code>
+
+            <section class="apuntes_responsive">
+                <h2>Apuntes de python</h2>
+    
+                <ul class="apuntes_in_content" type="circle">
+                    <li><a href="Diccionarios/Diccionarios.html">Diccionarios</a></li>
+                    <li><a href="">Excepciones</a></li>
+                    <li><a href="">Funciones</a></li>
+                    <li><a href="">Listas</a></li>
+                    <li><a href="">Módulos</a></li>
+                    <li><a href="">Strings</a></li>
+                    <li><a href="">Unittest</a></li>
+                </ul>
+            </section>
+            
+            <h2 class = "indice_apuntes">Apuntes de diccionarios</h2>
+
+            <ul type="circle" class="apuntes_in_content">
+                <li><a href="">Añadir elementos en un diccionario</a></li>
+                <li><a href="">Metodo get para diccionarios</a></li>
+                <li><a href="">Metodo items</a></li>
+                <li><a href="">Metodo keys</a></li>
+                <li><a href="">Método values</a></li>
+                <li><a href="">Mostrar valor de una key de un diccionario</a></li>
+            </ul>
+        </div>
+
+        <footer id="footer"></footer>
+        <script src="/Mi_blog.github.io/Javascript/header_footer.js"></script>
+        <script src="/Mi_blog.github.io/Javascript/temas_python.js"></script>
+    </body>
+</html>
